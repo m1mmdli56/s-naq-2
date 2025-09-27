@@ -158,12 +158,21 @@ console.log(reverseString("salam"));
 
 const printObject = (obj) => {
     for (let key in obj) {
-        console.log(`${key}: ${obj[key]}`);
+        console.log(`${key}: ${obj[key]`);
     }
 };
 printObject({name: "Amil", age: 22, city: "Şamaxı"});
 
 ------------------------------------------------------------------------------------------------------------------
 
-8.?
+8. bir kitab obyektində bu məlumatlar olsun : 
+let book = {
+title: "Code"
+author: "Amil"
+year: 2025
+pages: 100
+}
+
+const setBookInfo(obj)=>{
+   return 
 */
